@@ -49,16 +49,10 @@ Route::get('posts/{slug}', function ($slug) {
         ],
     ];
 
-    $new_post = [];
-
-    foreach ($blog_posts as $post) {
-        if ($post['slug'] === $slug) {
-            $new_post = $post;
-        }
-    }
+   
 
     return view('post', [
         "title" => "Single Pos",
-        "post" => $new_post,
+        "post" => Post::find($slug),
     ]);
 });

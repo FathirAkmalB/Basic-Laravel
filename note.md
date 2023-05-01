@@ -20,3 +20,10 @@ Model Code :
 `php artisan make::model Nama`
 Cmmnd Pallete `Laravel Artisan` Extention
 : Ctrl + Shift + P for command pallete. => Artisan: Make ModelP
+
+Collection : `Pembungkus Array`
+
+Konsep
+Data : Ada pada Model.
+Control : Ada pada Controller.
+Collections : Data dirubah menjadi Collection
