@@ -22,8 +22,13 @@ Cmmnd Pallete `Laravel Artisan` Extention
 : Ctrl + Shift + P for command pallete. => Artisan: Make ModelP
 
 Collection : `Pembungkus Array`
+Controller : `Kumpulan kontrol mulai dari validasi sampai akses database`
 
 Konsep
 Data : Ada pada Model.
 Control : Ada pada Controller.
 Collections : Data dirubah menjadi Collection
+
+Environment : 
+`.env` : Variable true
+`.env.examples` : Template 

@@ -23,10 +23,7 @@ Route::get('/about', function () {
 
 
 Route::controller(PostController::class)->group( function (){
-
     Route::get('/posts', 'index');  //Get the posts
     Route::get('posts/{slug}',  'show'); //Show the posts
 
 });
-
-
